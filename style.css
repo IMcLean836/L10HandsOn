@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+.profile-section {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.profile-section img {
+    border-radius: 50%;
+    width: 300px;
+    height: 400px;
+}
+
+.social-media {
+    flex: auto;
+    justify-items: legacy;
+    display: flex;
+    font-size: 110px;
+    justify-content: center;
+    margin: 40px 0;
+}
+
+.social-media a:hover {
+    margin: 0 30px;
+    color: #1202c2;
+    font-size: 140px;
+    transition: transform 0.3s ease;
+}
+
+.social-media a:hover {
+    transform: scale(1.2);
+}
+
+.skills-section, .repos-section {
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+    align-items: center;
+}
+.skills, .repositories {
+    margin: 0 auto; /* Centers the section horizontally */
+    width: 80%; /* Adjust this width as needed */
+    max-width: 600px; /* Optional max-width to avoid very wide sections */
+    text-align: left; /* Optional: aligns the text within the sections */
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: auto;
+}
